@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="gEnV0hiawH2KPBoYO_W4">
+    <mxGraphModel dx="1106" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="90" width="140" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="120" x="30" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Uploader" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Watch for changes and upload to remote" vertex="1">
+          <mxGeometry height="30" width="110" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="90" width="140" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="120" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Downloader" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Poll for changes from remote and sync" vertex="1">
+          <mxGeometry height="30" width="110" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="280" width="140" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="API Gateway and Load Balancer" vertex="1">
+          <mxGeometry height="30" width="100" x="305" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- Auth&lt;div&gt;- Rate Limit&lt;/div&gt;&lt;div&gt;- Routing&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="90" x="305" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=-0.01;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" target="lLbvtKlYfcWLM2tZWn3J-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="150" as="sourcePoint" />
+            <mxPoint x="210" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="210" as="sourcePoint" />
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="File Service" vertex="1">
+          <mxGeometry height="120" width="170" x="540" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-23" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="S3" vertex="1">
+          <mxGeometry height="120" width="100" x="810" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-25" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="330" as="sourcePoint" />
+            <mxPoint x="270" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-26" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="200" as="sourcePoint" />
+            <mxPoint x="810" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Get pre-signed URL()" vertex="1">
+          <mxGeometry height="30" width="120" x="690" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-28" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="File Metadata DB" vertex="1">
+          <mxGeometry height="120" width="100" x="827" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=-0.01;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="220" as="sourcePoint" />
+            <mxPoint x="829" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-32" edge="1" parent="1" source="lLbvtKlYfcWLM2tZWn3J-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="lLbvtKlYfcWLM2tZWn3J-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="S3 Notification once File upload completed" vertex="1">
+          <mxGeometry height="30" width="100" x="950" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="File Metadata:&lt;div&gt;- ID&lt;/div&gt;&lt;div&gt;- Name&lt;/div&gt;&lt;div&gt;- Size&lt;/div&gt;&lt;div&gt;- mimeType&lt;/div&gt;&lt;div&gt;- UploadedBy&lt;/div&gt;&lt;div&gt;- Status&lt;/div&gt;&lt;div&gt;- S3 Url ( link to the s3 file)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="980" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Shared Files:&lt;div&gt;- UserID&lt;/div&gt;&lt;div&gt;- FileID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1181" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CDN" vertex="1">
+          <mxGeometry height="60" width="120" x="25" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.433;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="lLbvtKlYfcWLM2tZWn3J-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="499" as="sourcePoint" />
+            <mxPoint x="199" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Download Files" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-45" edge="1" parent="1" source="lLbvtKlYfcWLM2tZWn3J-3" style="endArrow=classic;startArrow=classic;html=1;rounded=0;curved=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" target="lLbvtKlYfcWLM2tZWn3J-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="-20" />
+            </Array>
+            <mxPoint x="405" y="40" as="sourcePoint" />
+            <mxPoint x="455" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Upload file to the S3 directly using presigned url()" vertex="1">
+          <mxGeometry height="30" width="170" x="360" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-52" edge="1" parent="1" source="lLbvtKlYfcWLM2tZWn3J-23" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=0.145;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="450" />
+            </Array>
+            <mxPoint x="255" y="550" as="sourcePoint" />
+            <mxPoint x="145" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLbvtKlYfcWLM2tZWn3J-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cache Frequenctly access file" vertex="1">
+          <mxGeometry height="30" width="150" x="470" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
